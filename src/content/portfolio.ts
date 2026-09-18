@@ -115,7 +115,7 @@ export const experienceItems: ExperienceItem[] = [
 		companyKey: "devspace",
 		role: "Software Engineer",
 		start: "Mar 2026",
-		end: "Present",
+		end: "Aug 2026",
 		description:
 			"Working on AI-powered features, helping build and scale web applications across the product lifecycle.",
 		stack: ["React", "TypeScript", "Mastra AI", "Convex", "Vercel AI SDK"],

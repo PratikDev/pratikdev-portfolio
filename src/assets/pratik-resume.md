@@ -30,7 +30,7 @@ Software Engineer with 4+ years building production web applications end to end,
 
 **PROFESSIONAL EXPERIENCE**
 
-[**Devspace**](https://www.devspace.so/)	March 2026 – Present  
+[**Devspace**](https://www.devspace.so/)	Mar 2026 – Aug 2026
 ***Software Engineer***
 
 * Build full-stack features in React and TypeScript on top of an agentic AI pipeline, integrating with Mastra AI, Convex, and the Vercel AI SDK.
