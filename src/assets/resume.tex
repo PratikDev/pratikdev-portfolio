@@ -93,7 +93,6 @@
 \vspace{-6pt}
 
 %-----------EDUCATION-----------
-% TODO: add the graduation year (or "Expected 20XX") in the empty slot after the university name.
 \section{Education}
   \resumeSubHeadingListStart
     \resumeSubheading
@@ -122,12 +121,10 @@
       \resumeItemListStart
         \resumeItem{Served as one of the \textbf{primary engineers} on a client's internal tool for improving employee productivity.}
         \resumeItem{Worked on an intelligent recruitment platform, contributing to its technical architecture, database design, and component design patterns.}
-        \resumeItem{Built SSR, ISR, and SSG features with SEO metadata and Open Graph tags.}
         \resumeItem{Mentored a junior developer through regular code reviews.}
         \tech{Next.js, TypeScript, Tailwind, shadcn/ui, Zustand, Appfarm (low-code), Azure}
       \resumeItemListEnd
 
-    % TODO: Hone overlaps Osilion. Label it (e.g. "Contract" or "Part-time") in the empty slot on the right.
     \resumeSubheading
       {\lnk{https://hone.gg/}{Hone}}{Aug 2025 -- Sep 2025}
       {Frontend Engineer}{}
@@ -144,8 +141,6 @@
       \resumeItemListStart
         \resumeItem{\textbf{Led the development flow end to end} across multiple concurrent client projects, conducting code reviews and making key architectural decisions.}
         \resumeItem{Reduced client closing time by \textbf{roughly 50\%} through better scoping and client-to-team delivery alignment.}
-        \resumeItem{Built backend APIs and integrated third-party services, including the \textbf{SSLCommerz payment gateway} and WebSocket real-time features.}
-        \resumeItem{Delivered SSR pages for real-time data and ISR/SSG for marketing pages, with SEO work on structured metadata, sitemaps, and Lighthouse tuning.}
         \resumeItem{Mentored a junior developer across multiple client projects.}
         \tech{Next.js, TypeScript, Go, shadcn/ui, TanStack Query, Zustand, Drizzle ORM, Appwrite, Firebase, Docker}
       \resumeItemListEnd
@@ -176,38 +171,28 @@
     \resumeSubHeadingListStart
 
       \resumeProjectHeading
-          {\textbf{Spud: Discord Bot for Team Task Coordination}}{\lnk{https://spud-bot.onrender.com/}{Live} $|$ \lnk{https://github.com/PratikDev/spud}{Source}}
+          {\textbf{Spud}}{\lnk{https://spud-bot.onrender.com/}{Live} $|$ \lnk{https://github.com/PratikDev/spud}{Source}}
           \resumeItemListStart
             \resumeItem{Built and deployed to production a Discord bot for small-team task coordination with Gemini-powered features: \textbf{duplicate-task detection} that blocks redundant work at claim time, and a \textbf{scope-drift detector} that diffs a git branch against its natural-language task description and pings the owner in-channel when work strays outside the claimed scope.}
-            \resumeItem{Engineered a \textbf{GitHub App integration} end to end: short-lived installation tokens, an app-level webhook pipeline with \textbf{HMAC-SHA256 verification}, per-project rate limiting, and automatic task closure on PR merge.}
-            \resumeItem{Added a role-based permission model (team lead vs.\ server admin) enforced in application code.}
-            \resumeItem{Set up \textbf{production observability}: structured JSON logging shipped to Grafana Loki, plus synthetic monitoring with uptime alerting; containerized with Docker on a hosted Turso (libSQL) database.}
+            \resumeItem{Engineered a \textbf{GitHub App integration} end to end: short-lived installation tokens, an app-level \textbf{Webhook Pipeline}, per-project \textbf{Rate Limiting}, and automatic task closure on PR merge.}
+            \resumeItem{Added a \textbf{Role-based Permission Model} (team lead vs.\ server admin) enforced in application code.}
+            \resumeItem{Set up \textbf{production observability}: structured JSON logging shipped to \textbf{Grafana Loki}, plus \textbf{Synthetic Monitoring} with uptime alerting; containerized with Docker on a hosted Turso (libSQL) database.}
             \tech{TypeScript, Bun, discord.js, GitHub Apps API, GitHub Actions, Gemini, Vercel AI SDK, SQLite/Turso, Grafana (Loki + Synthetic Monitoring), Docker}
           \resumeItemListEnd
 
       \resumeProjectHeading
-          {\textbf{Result Lookup: Exam Result Publishing System}}{\lnk{https://github.com/PratikDev/result-lookup}{Source}}
+          {\textbf{Result Lookup}}{\lnk{https://github.com/PratikDev/result-lookup}{Source}}
           \resumeItemListStart
-            \resumeItem{Designed and built a \textbf{high-throughput} exam result publishing system in Go, simulating Bangladesh's SSC result release with \textbf{2M results}.}
-            \resumeItem{Pre-serialized results into Redis behind a \textbf{publish-gate flag for atomic release}, with cursor-based batch seeding and SCAN-based count verification before the gate flips.}
-            \resumeItem{Reached a \textbf{$\sim$32k RPS peak with zero errors} across a 615k-request load test and \textbf{p99 under 105 ms at 1,000 concurrent connections}, backed by a PostgreSQL fallback with connection limiting.}
+            \resumeItem{Designed and built a high-throughput exam result publishing system \textbf{serving 2M results}.}
+            \resumeItem{Reached \textbf{$\sim$32k RPS} peak with \textbf{p99 under 105 ms at 1,000 concurrent connections}, backed by a PostgreSQL fallback with connection limiting.}
             \tech{Go, PostgreSQL, Redis, pgx/v5, Docker, golang-migrate, slog, miniredis}
           \resumeItemListEnd
 
       \resumeProjectHeading
-          {\textbf{URL Health Checker: Async Job Queue}}{\lnk{https://github.com/PratikDev/url-health-checker}{Source}}
+          {\textbf{URL Health Checker}}{\lnk{https://github.com/PratikDev/url-health-checker}{Source}}
           \resumeItemListStart
             \resumeItem{Built an async job queue with separate API and worker binaries; workers claim jobs via \texttt{SELECT ...\ FOR UPDATE SKIP LOCKED}, with \textbf{exponential backoff written in SQL}, atomic with status updates.}
             \resumeItem{Recovered stale jobs with a staleness threshold instead of a heartbeat, avoiding a race on bounded-duration jobs; graceful shutdown via \texttt{signal.NotifyContext}, with integration tests against real PostgreSQL.}
-            \tech{Go, PostgreSQL, pgx/v5, Docker, golang-migrate, slog}
-          \resumeItemListEnd
-
-      \resumeProjectHeading
-          {\textbf{URL Shortener API}}{\lnk{https://url-shortener-api-xiyp.onrender.com}{Live} $|$ \lnk{https://github.com/PratikDev/url-shortener-api}{Source}}
-          \resumeItemListStart
-            \resumeItem{Built a \textbf{per-IP token-bucket rate limiter} on a mutex-protected generic SafeMap, with retry-on-conflict short-code generation instead of pre-checking.}
-            \resumeItem{Shipped a multi-stage Docker build running as a non-root user, with \textbf{integration tests against real PostgreSQL} and the schema loaded via \texttt{//go:embed}.}
-            \resumeItem{Deployed on Render with managed PostgreSQL.}
             \tech{Go, PostgreSQL, pgx/v5, Docker, golang-migrate, slog}
           \resumeItemListEnd
 
@@ -220,7 +205,7 @@
     \resumeSubHeadingListStart
 
       \resumeProjectHeading
-          {\textbf{Narrative Guard: Brand Governance Platform}}{\lnk{https://narrative-guard.vercel.app/}{Live} $|$ \lnk{https://github.com/PratikDev/narrative-guard}{Source}}
+          {\textbf{Narrative Guard}}{\lnk{https://narrative-guard.vercel.app/}{Live} $|$ \lnk{https://github.com/PratikDev/narrative-guard}{Source}}
           \resumeItemListStart
             \resumeItem{Built a workspace-based brand governance platform with \textbf{role-based ownership enforcement} and \textbf{per-brand RAG namespaces} for workspace isolation.}
             \resumeItem{Built the audit flow end to end (score, verdict, findings, and an AI rewrite) in a responsive Next.js UI, with invite tokens stored as hashes and scheduled Convex actions handling async audit processing.}
@@ -247,7 +232,7 @@
      \textbf{Frontend}{: Tailwind CSS, shadcn/ui, Framer Motion} \\
      \textbf{State Management}{: Context API, Zustand, React Query} \\
      \textbf{Databases}{: PostgreSQL, MongoDB, MySQL, SQLite, Redis, Drizzle ORM} \\
-     \textbf{AI \& Agents}{: Vercel AI SDK, Mastra AI, Google Gemini, RAG, Claude Code, Codex} \\
+     \textbf{AI \& Agents}{: Vercel AI SDK, Google Gemini, RAG, Claude Code, Codex} \\
      \textbf{DevOps/Infra}{: Docker, GitHub Actions, Vercel, Firebase, Appwrite, Convex, AWS (basic)} \\
      \textbf{Testing \& Tools}{: Git, Jest, Vitest, React Testing Library} \\
      \textbf{Soft Skills}{: Communication, Ownership, Leadership, Collaboration, Analytical Thinking, Friendly \& Approachable}

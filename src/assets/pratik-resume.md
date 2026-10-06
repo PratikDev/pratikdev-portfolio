@@ -1,129 +1,166 @@
-**PROTIK DEV**
+<div class="center">
 
-pratikdevofficial1@gmail.com  •  \+880-1537220785
+<span class="smallcaps">Protik Dev</span>\
+Chattogram, Bangladesh $`|`$ [<u>pratikdevofficial1@gmail.com</u>](mailto:pratikdevofficial1@gmail.com) $`|`$ +880-1537220785\
+[<u>Github</u>](https://github.com/PratikDev) $`|`$ [<u>LinkedIn</u>](https://linkedin.com/in/pratik-and-dev) $`|`$ [<u>Portfolio</u>](https://iam-pratik.vercel.app)
 
-[GitHub](https://github.com/PratikDev)  •  [LinkedIn](https://linkedin.com/in/pratik-and-dev)  •  [Portfolio](https://iam-pratik.vercel.app)
+</div>
 
-**ONE LINER**
+# Summary
 
-Software Engineer with 3+ years of corporate and 2+ years of freelance experience
+Full-stack software engineer (TypeScript, Next.js, Go) with $`\sim`$<!-- -->3 years of corporate experience and 2+ years of freelance experience, building products from UI to production infrastructure.
 
-**SKILLS**
+# Education
 
-**Languages:** TypeScript, JavaScript, SQL, Golang
+- |                                             |                          |
+  |:--------------------------------------------|-------------------------:|
+  | **BGC Trust University**                    |                          |
+  | *B.Sc. in Computer Science and Engineering* | *Chattogram, Bangladesh* |
 
-**Tech Stack:** TypeScript, JavaScript, Golang, React.js, Next.js, Node.js, Express.js
+# Professional Experience
 
-**State Management:** Context API, Zustand, React Query
+- |                                                 |                         |
+  |:------------------------------------------------|------------------------:|
+  | **[<u>Devspace</u>](https://www.devspace.so/)** | **Mar 2026 – Aug 2026** |
+  | *Software Engineer*                             |                         |
 
-**Databases:** PostgreSQL, MongoDB, MySQL, SQLite, Redis
+  -  Built full-stack React and TypeScript features on an **agentic AI pipeline** (Mastra AI, Convex, Vercel AI SDK).
 
-**DevOps/Infra:** Docker, Github Actions, Vercel, Firebase, Appwrite, Convex, AWS (basic)
+  -  Built a **dynamic tool registry**: agent tools are stored in the database and discovered at runtime, not hardcoded.
 
-**Other:** Git, Github Actions, Jest, Vitest, React Testing Library
+  -  Contributed to CI/CD pipeline configuration and deployment automation.
 
-**Soft Skills:** Communication, Ownership, Leadership, Collaboration, Analytical Thinking, Friendly & Approachable
+  -  **Tech:** *React, TypeScript, Mastra AI, Convex, Vercel AI SDK, GitHub Actions, Codex*
 
-**PROFESSIONAL EXPERIENCE**
+- |                                           |                         |
+  |:------------------------------------------|------------------------:|
+  | **[<u>Osilion</u>](https://osilion.no/)** | **Jul 2025 – Feb 2026** |
+  | *Full-Stack Engineer*                     |                         |
 
-[**Devspace**](https://www.devspace.so/)	Mar 2026 – Aug 2026  
-***Software Engineer***
+  -  Served as one of the **primary engineers** on a client’s internal tool for improving employee productivity.
 
-* Built a dynamic tool registry so agent tools are stored in the database and discovered at runtime instead of hardcoded.
+  -  Worked on an intelligent recruitment platform, contributing to its technical architecture, database design, and component design patterns.
 
-* Contributed to CI/CD pipeline configuration and deployment automation.
+  -  Mentored a junior developer through regular code reviews.
 
-* **Tech:** React, TypeScript, Convex, Vercel AI SDK, Github Actions, Codex
+  -  **Tech:** *Next.js, TypeScript, Tailwind, shadcn/ui, Zustand, Appfarm (low-code), Azure*
 
-[**Osilion**](https://osilion.no/)	Jul 2025 – Feb 2026  
-***Full-Stack Engineer***
+- |                                     |                         |
+  |:------------------------------------|------------------------:|
+  | **[<u>Hone</u>](https://hone.gg/)** | **Aug 2025 – Sep 2025** |
+  | *Frontend Engineer*                 |                         |
 
-* Served as one of the primary engineers on an internal productivity tool for a client, contributing to improvement in employee productivity.
+  -  Implemented a **Smart Scaling system** that automatically adapts the desktop app to smaller screens.
 
-* Worked on an intelligent recruitment platform, contributing to technical architecture & database designs, and component design patterns.
+  -  Owned the review and download pages end to end; found and fixed a small-screen layout issue with a CSS grid pattern, validated through manual cross-device testing.
 
-* **Tech:** Next.js, TypeScript, Tailwind, ShadcnUI, Zustand, Appfarm (low-code tool), Azure
+  -  Improved code splitting and lazy loading to cut initial load weight, and fixed a keyboard focus-visibility issue.
 
-[**Hone**](https://hone.gg/)	Aug 2025 – Sep 2025  
-***Frontend Engineer***
+  -  **Tech:** *React, TypeScript, Tailwind, shadcn/ui*
 
-* Implemented Smart Scaling system for a Desktop app to cover smaller screens automatically.
+- |  |  |
+  |:---|---:|
+  | **[<u>Hello World Communications</u>](https://software.helloworldbd.com/)** | **Sep 2024 – Jul 2025** |
+  | *Full-Stack Engineer* |  |
 
-* Owned the review and download pages end to end; found and fixed a responsive layout issue on smaller screens using a CSS grid pattern, validated through manual cross-device testing.
+  -  **Led the development flow end to end** across multiple concurrent client projects, conducting code reviews and making key architectural decisions.
 
-* **Tech:** React, TypeScript, Tailwind, ShadcnUI
+  -  Reduced client closing time by **roughly 50%** through better scoping and client-to-team delivery alignment.
 
-[**Hello World Communications**](https://software.helloworldbd.com/)	Sep 2024 – Jul 2025  
-***Full-Stack Engineer***
+  -  Mentored a junior developer across multiple client projects.
 
-* Led the whole development flow end to end, conducted code reviews, and made key architectural decisions across multiple concurrent client projects
+  -  **Tech:** *Next.js, TypeScript, Go, shadcn/ui, TanStack Query, Zustand, Drizzle ORM, Appwrite, Firebase, Docker*
 
-* Reduced client closing time by roughly 50% through better scoping and delivery alignment between client requirements and the development team
+- |                       |                         |
+  |:----------------------|------------------------:|
+  | **Bilsida**           | **Oct 2023 – Aug 2024** |
+  | *Full-Stack Engineer* |                         |
 
-* Mentored a junior developer on multiple client projects
+  -  Built a Swedish car marketplace **from scratch across the full stack**; it went on to attract **two of Sweden’s largest car dealers**.
 
-* **Tech:** Next.js, TypeScript, Golang, ShadcnUI, Tanstack Query, Zustand, Drizzle ORM, Appwrite, Firebase, Docker
+  -  Owned backend logic, database schema design, image optimization, and SEO.
 
-**Bilsida**	Oct 2023 – Aug 2024  
-***Full-Stack Engineer***
+  -  Mentored a junior developer in building a chat system.
 
-* Built a Swedish car marketplace from scratch across the full stack, which went on to attract two of Sweden's largest car dealers.
+  -  **Tech:** *Next.js, TypeScript, Tailwind, shadcn/ui, Appwrite, Docker, Context API*
 
-* Mentored a junior developer on developing a chat system
+- |  |  |
+  |:---|---:|
+  | **[<u>Fiverr</u>](https://www.fiverr.com/pratik_dev)** | **Jul 2021 – Oct 2023** |
+  | *Freelance Full-Stack Developer* | *Remote* |
 
-* **Tech:** Next.js, TypeScript, Tailwind, ShadcnUI, Appwrite, Docker, Context API
+  -  Delivered full-stack web applications and APIs for **20+ clients**, covering frontend, backend, and deployment.
 
-[**Fiverr**](https://www.fiverr.com/pratik_dev)	Jul 2021 – Oct 2023  
-***Freelance Full-Stack Developer***
+# Backend & Systems Projects
 
-* Delivered full-stack web applications and APIs for 20+ clients, covering frontend, backend, and deployment.
+- |  |  |
+  |:---|---:|
+  | **Spud** | [<u>Live</u>](https://spud-bot.onrender.com/) $`|`$ [<u>Source</u>](https://github.com/PratikDev/spud) |
 
-**FULL-STACK PROJECTS**
+  -  Built and deployed to production a Discord bot for small-team task coordination with Gemini-powered features: **duplicate-task detection** that blocks redundant work at claim time, and a **scope-drift detector** that diffs a git branch against its natural-language task description and pings the owner in-channel when work strays outside the claimed scope.
 
-**Narrative Guard**  [**Live**](https://narrative-guard.vercel.app/) | [**Source**](https://github.com/PratikDev/narrative-guard)
+  -  Engineered a **GitHub App integration** end to end: short-lived installation tokens, an app-level **Webhook Pipeline**, per-project **Rate Limiting**, and automatic task closure on PR merge.
 
-* Workspace-based brand governance platform with Role based ownership enforced and per-brand RAG namespaces for workspace isolation.
+  -  Added a **Role-based Permission Model** (team lead vs. server admin) enforced in application code.
 
-* Built the audit flow end to end: score, verdict, findings, and an AI rewrite surfaced through a responsive Next.js UI, with invite tokens stored as hashes and scheduled Convex actions handling async audit processing.
+  -  Set up **production observability**: structured JSON logging shipped to **Grafana Loki**, plus **Synthetic Monitoring** with uptime alerting; containerized with Docker on a hosted Turso (libSQL) database.
 
-* **Tech:** Next.js, TypeScript, Convex, Convex Auth, Google Gemini, RAG, shadcn/ui, Vitest, React Testing Library
+  -  **Tech:** *TypeScript, Bun, discord.js, GitHub Apps API, GitHub Actions, Gemini, Vercel AI SDK, SQLite/Turso, Grafana (Loki + Synthetic Monitoring), Docker*
 
-**Roadmap App**  [**Live**](https://bitcode-roadmap-app.vercel.app/) | [**Source**](https://github.com/PratikDev/roadmap-app)
+- |  |  |
+  |:---|---:|
+  | **Result Lookup** | [<u>Source</u>](https://github.com/PratikDev/result-lookup) |
 
-* Full-stack app with SSR, authentication, a REST API, and upvoting and commenting features.
+  -  Designed and built a high-throughput exam result publishing system **serving 2M results**.
 
-* Covered with tests using Jest and React Testing Library.
+  -  Reached **$`\sim`$<!-- -->32k RPS** peak with **p99 under 105 ms at 1,000 concurrent connections**, backed by a PostgreSQL fallback with connection limiting.
 
-* **Tech:** Next.js, TypeScript, Drizzle ORM, PostgreSQL, Vercel, Jest, React Testing Library
+  -  **Tech:** *Go, PostgreSQL, Redis, pgx/v5, Docker, golang-migrate, slog, miniredis*
 
-**BACKEND & SYSTEM PROJECTS**
+- |  |  |
+  |:---|---:|
+  | **URL Health Checker** | [<u>Source</u>](https://github.com/PratikDev/url-health-checker) |
 
-**Spud [Live](https://spud-bot.onrender.com/) |** [**Source**](https://github.com/PratikDev/spud)
+  -  Built an async job queue with separate API and worker binaries; workers claim jobs via `SELECT ... FOR UPDATE SKIP LOCKED`, with **exponential backoff written in SQL**, atomic with status updates.
 
-* Built and deployed to production a Discord bot for small-team task coordination with **LLM features with Gemini**. Duplicate-task detection that blocks redundant work at claim time, and a **scope-drift detector** that diffs a git branch against its natural-language task description and pings the owner in-channel when the work strays outside what was claimed.
+  -  Recovered stale jobs with a staleness threshold instead of a heartbeat, avoiding a race on bounded-duration jobs; graceful shutdown via `signal.NotifyContext`, with integration tests against real PostgreSQL.
 
-* Engineered a **GitHub App integration** end to end, short-lived installation tokens, and an app-level **Webhook Pipeline**, per-project **Rate Limiting**, and automatic task closure on PR merge.
+  -  **Tech:** *Go, PostgreSQL, pgx/v5, Docker, golang-migrate, slog*
 
-* Added a **Role-based Permission Model** (team lead vs. server admin) enforced in application code.
+# Full-Stack Projects
 
-* Set up **Production Observability** \- structured JSON logging shipped to **Grafana Loki**, plus **Synthetic Monitoring** with uptime alerting; containerized with Docker on a hosted Turso (libSQL) database.
+- |  |  |
+  |:---|---:|
+  | **Narrative Guard** | [<u>Live</u>](https://narrative-guard.vercel.app/) $`|`$ [<u>Source</u>](https://github.com/PratikDev/narrative-guard) |
 
-* **Tech:** TypeScript, Bun, discord.js, GitHub Apps API, Github Actions, Gemini, Vercel AI SDK, SQLite/Turso, Grafana (Loki \+ Synthetic Monitoring), Docker
+  -  Built a workspace-based brand governance platform with **role-based ownership enforcement** and **per-brand RAG namespaces** for workspace isolation.
 
-**Result Lookup**  [**Source**](https://github.com/PratikDev/result-lookup)
+  -  Built the audit flow end to end (score, verdict, findings, and an AI rewrite) in a responsive Next.js UI, with invite tokens stored as hashes and scheduled Convex actions handling async audit processing.
 
-* Designed and built a high-throughput exam result publishing system **serving 2M results**.
+  -  **Tech:** *Next.js, TypeScript, Convex, Convex Auth, Google Gemini, RAG, shadcn/ui, Vitest, React Testing Library*
 
-* Reached **\~32k RPS** peak with **p99 under 105ms** backed by a PostgreSQL fallback with connection limiting.
+- |  |  |
+  |:---|---:|
+  | **Roadmap App** | [<u>Live</u>](https://bitcode-roadmap-app.vercel.app/) $`|`$ [<u>Source</u>](https://github.com/PratikDev/roadmap-app) |
 
-* **Tech:** Go, PostgreSQL, Redis, pgx/v5, Docker, golang-migrate, slog, miniredis
+  -  Built a full-stack app with SSR, authentication, a REST API, and upvoting and commenting.
 
-**URL Shortener API**  [**Live**](https://url-shortener-api-xiyp.onrender.com) | [**Source**](https://github.com/PratikDev/url-shortener-api)
+  -  Covered with tests using Jest and React Testing Library.
 
-* Built a per-IP token bucket rate limiter using a mutex-protected generic SafeMap, with retry-on-conflict short code generation instead of pre-checking.
+  -  **Tech:** *Next.js, TypeScript, Drizzle ORM, PostgreSQL, Vercel, Jest, React Testing Library*
 
-* Deployed with a non-root Docker user and a multi-stage build, with integration tests against real PostgreSQL and schema loaded via //go:embed.
+# Technical Skills
 
-* Deployed on Render with managed PostgreSQL.
+<div class="itemize">
 
-* **Tech:** Go, PostgreSQL, pgx/v5, Docker, golang-migrate, slog
+**Languages**: TypeScript, JavaScript, Go, SQL\
+**Frameworks**: React.js, Next.js (SSR, ISR, SSG), Node.js, Express.js\
+**Frontend**: Tailwind CSS, shadcn/ui, Framer Motion\
+**State Management**: Context API, Zustand, React Query\
+**Databases**: PostgreSQL, MongoDB, MySQL, SQLite, Redis, Drizzle ORM\
+**AI & Agents**: Vercel AI SDK, Google Gemini, RAG, Claude Code, Codex\
+**DevOps/Infra**: Docker, GitHub Actions, Vercel, Firebase, Appwrite, Convex, AWS (basic)\
+**Testing & Tools**: Git, Jest, Vitest, React Testing Library\
+**Soft Skills**: Communication, Ownership, Leadership, Collaboration, Analytical Thinking, Friendly & Approachable
+
+</div>
