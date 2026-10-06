@@ -1,0 +1,19 @@
+name: Resume hash
+
+on:
+  push:
+    paths:
+      - src/assets/resume.tex
+      - src/assets/.resume.hash
+  pull_request:
+    paths:
+      - src/assets/resume.tex
+      - src/assets/.resume.hash
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: oven-sh/setup-bun@v2
+      - run: bun scripts/resume/check-hash.ts
