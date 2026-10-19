@@ -56,7 +56,7 @@ Full-stack software engineer (TypeScript, Next.js, Go) with $`\sim`$<!-- -->3 ye
 
   -  Improved code splitting and lazy loading to cut initial load weight, and fixed a keyboard focus-visibility issue.
 
-  -  **Tech:** *React, TypeScript, Tailwind, shadcn/ui*
+  -  **Tech:** *React, TypeScript, Electron, Tailwind, shadcn/ui*
 
 - |  |  |
   |:---|---:|
