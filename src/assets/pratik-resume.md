@@ -2,7 +2,7 @@
 
 <span class="smallcaps">Protik Dev</span>\
 Chattogram, Bangladesh $`|`$ [<u>pratikdevofficial1@gmail.com</u>](mailto:pratikdevofficial1@gmail.com) $`|`$ +880-1537220785\
-[<u>Github</u>](https://github.com/PratikDev) $`|`$ [<u>LinkedIn</u>](https://linkedin.com/in/pratik-and-dev) $`|`$ [<u>Portfolio</u>](https://iam-pratik.vercel.app)
+[<u>Github</u>](https://github.com/PratikDev) $`|`$ [<u>LinkedIn</u>](https://linkedin.com/in/pratik-and-dev) $`|`$ [<u>Portfolio</u>](https://iam-pratik.pages.dev)
 
 </div>
 
