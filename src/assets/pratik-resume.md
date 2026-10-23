@@ -24,13 +24,13 @@ Full-stack software engineer (TypeScript, Next.js, Go) with $`\sim`$<!-- -->3 ye
   | **[<u>Devspace</u>](https://www.devspace.so/)** | **Mar 2026 – Aug 2026** |
   | *Software Engineer*                             |                         |
 
-  -  Built full-stack React and TypeScript features on an **agentic AI pipeline** (Mastra AI, Convex, Vercel AI SDK).
+  -  Built full-stack React and TypeScript features on an **agentic AI pipeline**.
 
   -  Built a **dynamic tool registry**: agent tools are stored in the database and discovered at runtime, not hardcoded.
 
   -  Contributed to CI/CD pipeline configuration and deployment automation.
 
-  -  **Tech:** *React, TypeScript, Convex, Vercel AI SDK, GitHub Actions, Codex*
+  -  **Tech:** *React, React Native, TypeScript, Convex, Vercel AI SDK, GitHub Actions, Codex*
 
 - |                                           |                         |
   |:------------------------------------------|------------------------:|
@@ -69,7 +69,7 @@ Full-stack software engineer (TypeScript, Next.js, Go) with $`\sim`$<!-- -->3 ye
 
   -  Mentored a junior developer across multiple client projects.
 
-  -  **Tech:** *Next.js, TypeScript, Go, shadcn/ui, TanStack Query, Zustand, Drizzle ORM, Appwrite, Firebase, Docker, SQL Server*
+  -  **Tech:** *Next.js, TypeScript, Go, shadcn/ui, TanStack Query, Zustand, PostgreSQL, Drizzle ORM, Appwrite, Firebase, Docker, SQL Server*
 
 - |                       |                         |
   |:----------------------|------------------------:|
@@ -82,7 +82,7 @@ Full-stack software engineer (TypeScript, Next.js, Go) with $`\sim`$<!-- -->3 ye
 
   -  Mentored a junior developer in building a chat system.
 
-  -  **Tech:** *Next.js, TypeScript, Tailwind, shadcn/ui, Appwrite, Docker, Context API*
+  -  **Tech:** *Next.js, TypeScript, Tailwind, shadcn/ui, Appwrite, Docker*
 
 - |  |  |
   |:---|---:|
