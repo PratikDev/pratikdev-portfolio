@@ -30,7 +30,7 @@ Full-stack software engineer (TypeScript, Next.js, Go) with $`\sim`$<!-- -->3 ye
 
   -  Contributed to CI/CD pipeline configuration and deployment automation.
 
-  -  **Tech:** *React, TypeScript, Mastra AI, Convex, Vercel AI SDK, GitHub Actions, Codex*
+  -  **Tech:** *React, TypeScript, Convex, Vercel AI SDK, GitHub Actions, Codex*
 
 - |                                           |                         |
   |:------------------------------------------|------------------------:|
@@ -43,7 +43,7 @@ Full-stack software engineer (TypeScript, Next.js, Go) with $`\sim`$<!-- -->3 ye
 
   -  Mentored a junior developer through regular code reviews.
 
-  -  **Tech:** *Next.js, TypeScript, Tailwind, shadcn/ui, Zustand, Appfarm (low-code), Azure*
+  -  **Tech:** *Next.js, TypeScript, Tailwind, shadcn/ui, Zustand, Appfarm (low-code), C#, Azure, SQL Server*
 
 - |                                     |                         |
   |:------------------------------------|------------------------:|
@@ -56,7 +56,7 @@ Full-stack software engineer (TypeScript, Next.js, Go) with $`\sim`$<!-- -->3 ye
 
   -  Improved code splitting and lazy loading to cut initial load weight, and fixed a keyboard focus-visibility issue.
 
-  -  **Tech:** *React, TypeScript, Electron, Tailwind, shadcn/ui*
+  -  **Tech:** *React, TypeScript, Electron, Tailwind, shadcn/ui, Claude Code*
 
 - |  |  |
   |:---|---:|
@@ -69,7 +69,7 @@ Full-stack software engineer (TypeScript, Next.js, Go) with $`\sim`$<!-- -->3 ye
 
   -  Mentored a junior developer across multiple client projects.
 
-  -  **Tech:** *Next.js, TypeScript, Go, shadcn/ui, TanStack Query, Zustand, Drizzle ORM, Appwrite, Firebase, Docker*
+  -  **Tech:** *Next.js, TypeScript, Go, shadcn/ui, TanStack Query, Zustand, Drizzle ORM, Appwrite, Firebase, Docker, SQL Server*
 
 - |                       |                         |
   |:----------------------|------------------------:|
