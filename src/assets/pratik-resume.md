@@ -14,7 +14,7 @@ Software Engineer with 5+ years of experience building AI features, third-party 
 <div class="itemize">
 
 **AI & Integrations**: LLMs APIs, Vercel AI SDK, RAG, vector search, webhooks, REST APIs, background workers/job queues\
-**Languages**: TypeScript, JavaScript, Go, SQL $`|`$ **Frameworks**: Node.js, Express.js, React.js, Next.js (SSR, ISR, SSG)\
+**Languages**: TypeScript, JavaScript, Go, SQL $`|`$ **Frameworks**: Node.js, Express.js, React.js, Next.js, Electron\
 **Databases**: PostgreSQL, MySQL, MongoDB, SQLite, Redis, Drizzle ORM $`|`$ **Frontend**: Tailwind CSS, shadcn/ui, Framer Motion\
 **DevOps/Infra**: Docker, GitHub Actions, Vercel, Firebase, Appwrite, Convex, Azure, AWS (basic)\
 **Testing & Tools**: Git, Jest, Vitest, React Testing Library\
@@ -87,6 +87,14 @@ Software Engineer with 5+ years of experience building AI features, third-party 
 
   -  **Tech:** *Next.js, TypeScript, Convex, Gemini, RAG, shadcn/ui, Vitest, React Testing Library*
 
+- |              |                                                        |
+  |:-------------|-------------------------------------------------------:|
+  | **PGSketch** | [<u>Source</u>](https://github.com/PratikDev/pgsketch) |
+
+  -  Linux desktop app that turns visual **Postgres** schema edits into reviewed **migration SQL**: a diagram editor with live change highlighting, risk warnings on destructive changes, a rolled-back dry-run validator, and drift detection when the database changes underneath you. Read-only by design, supports Postgres 14+, and ships as a `.deb`.
+
+  -  **Tech:** *Electron, React, TypeScript, PostgreSQL, SQLite, Zod, Vitest, Playwright, Docker*
+
 - |             |                                                       |
   |:------------|------------------------------------------------------:|
   | **DocTrac** | [<u>Source</u>](https://github.com/PratikDev/doctrac) |
@@ -94,14 +102,6 @@ Software Engineer with 5+ years of experience building AI features, third-party 
   -  A secure clinic admin portal to manage doctors and patients, with authentication, search and filtering, pagination, and a live analytics dashboard.
 
   -  **Tech:** *React, TypeScript, Express, MongoDB, Mongoose, Zod, TanStack Query, shadcn/ui, JWT*
-
-- |  |  |
-  |:---|---:|
-  | **Roadmap App** | [<u>Live</u>](https://bitcode-roadmap-app.vercel.app/) $`|`$ [<u>Source</u>](https://github.com/PratikDev/roadmap-app) |
-
-  -  Built a full-stack app with SSR, authentication, and a REST API, covered by Jest and React Testing Library tests.
-
-  -  **Tech:** *Next.js, TypeScript, Drizzle ORM, PostgreSQL, Vercel, Jest, React Testing Library*
 
 - |  |  |
   |:---|---:|
