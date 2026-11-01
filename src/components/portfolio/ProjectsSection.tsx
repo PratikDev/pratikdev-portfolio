@@ -91,7 +91,7 @@ export function ProjectsSection() {
 			<div className="grid grid-cols-3 h-full">
 				<OptionWheel
 					items={allProjectNames}
-					defaultSelected={2}
+					defaultSelected={4}
 					textColor="var(--muted-foreground)"
 					activeColor="var(--primary)"
 					className="font-heading"
