@@ -174,17 +174,6 @@ export const experienceItems: ExperienceItem[] = [
 
 export const projects: ProjectItem[] = [
 	{
-		name: "Narrative Guard",
-		slug: "narrative-guard",
-		description:
-			"An AI agent that audits content against your brand guidelines before it publishes.",
-		stack: ["Next.js", "Convex", "Gemini"],
-		status: "shipped",
-		type: "fullstack",
-		url: "https://narrative-guard.vercel.app",
-		source: "https://github.com/PratikDev/narrative-guard",
-	},
-	{
 		name: "Roadmap App",
 		slug: "roadmap-app",
 		description:
@@ -194,36 +183,6 @@ export const projects: ProjectItem[] = [
 		type: "fullstack",
 		url: "https://bitcode-roadmap-app.vercel.app",
 		source: "https://github.com/pratikDev/roadmap-app"
-	},
-	{
-		name: "Kar Comm",
-		slug: "kar-comm",
-		description:
-			"Dynamic landing page for an IT solutions company, built on Next.js and Firebase.",
-		stack: ["Next.js", "Firebase", "React Query"],
-		status: "shipped",
-		type: "frontend",
-		url: "https://karcommunication.com",
-	},
-	{
-		name: "Result Lookup",
-		slug: "result-lookup",
-		description:
-			"An exam result API built to serve 2 million users on a single instance with zero errors.",
-		stack: ["Go", "PostgreSQL", "Redis", "pgx/v5", "Docker"],
-		status: "shipped",
-		type: "backend",
-		source: "https://github.com/PratikDev/result-lookup"
-	},
-	{
-		name: "URL Health",
-		slug: "url-health",
-		description:
-			"A Go job queue that checks URL health with worker-based processing, retries, and exponential backoff.",
-		stack: ["Go", "PostgreSQL", "pgx/v5", "Docker"],
-		status: "shipped",
-		type: "backend",
-		source: "https://github.com/PratikDev/url-health-checker"
 	},
 	{
 		name: "URL Shortener",
@@ -236,6 +195,36 @@ export const projects: ProjectItem[] = [
 		source: "https://github.com/PratikDev/url-shortener-api"
 	},
 	{
+		name: "DocTract",
+		slug: "doctrac",
+		description:
+			"A secure clinic admin portal to manage doctors and patients, with authentication, search and filtering, pagination, and a live analytics dashboard.",
+		stack: ["React", "Typescript", "Express", "MongoDB", "mongoose", "zod", "Tanstack Query", "ShadcnUI", "JWT"],
+		status: "shipped",
+		type: "fullstack",
+		source: "https://github.com/PratikDev/doctrac"
+	},
+	{
+		name: "Result Lookup",
+		slug: "result-lookup",
+		description:
+			"An exam result API built to serve 2 million users on a single instance with zero errors.",
+		stack: ["Go", "PostgreSQL", "Redis", "pgx/v5", "Docker"],
+		status: "shipped",
+		type: "backend",
+		source: "https://github.com/PratikDev/result-lookup"
+	},
+	{
+		name: "PGSketch",
+		slug: "pgsketch",
+		description:
+			"Linux desktop app that turns visual Postgres schema edits into reviewed migration SQL",
+		stack: ["TypeScript", "Electron", "React", "PostgreSQL", "SQLite", "Zod", "Vitest", "Playwright", "Docker"],
+		status: "shipped",
+		type: "systems",
+		source: "https://github.com/PratikDev/pgsketch"
+	},
+	{
 		name: "Spud",
 		slug: "spud",
 		description:
@@ -244,6 +233,27 @@ export const projects: ProjectItem[] = [
 		status: "shipped",
 		type: "backend",
 		source: "https://github.com/PratikDev/spud"
+	},
+	{
+		name: "Narrative Guard",
+		slug: "narrative-guard",
+		description:
+			"An AI agent that audits content against your brand guidelines before it publishes.",
+		stack: ["Next.js", "Convex", "Gemini"],
+		status: "shipped",
+		type: "fullstack",
+		url: "https://narrative-guard.vercel.app",
+		source: "https://github.com/PratikDev/narrative-guard",
+	},
+	{
+		name: "URL Health",
+		slug: "url-health",
+		description:
+			"A Go job queue that checks URL health with worker-based processing, retries, and exponential backoff.",
+		stack: ["Go", "PostgreSQL", "pgx/v5", "Docker"],
+		status: "shipped",
+		type: "backend",
+		source: "https://github.com/PratikDev/url-health-checker"
 	},
 	{
 		name: "Tiny Compiler",
