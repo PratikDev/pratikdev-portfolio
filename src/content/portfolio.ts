@@ -32,13 +32,7 @@ export type ProjectItem = {
 	url?: string;
 	source?: string;
 	status: "shipped" | "learning";
-	type: "fullstack" | "frontend" | "backend" | "cli" | "systems";
-};
-
-export type ProjectSection = {
-	title: string;
-	type: ProjectType;
-	projects: ProjectItem[];
+	type: "fullstack" | "frontend" | "backend" | "cli" | "systems" | "agentic";
 };
 
 export type SkillGroup = {
@@ -215,7 +209,7 @@ export const projects: ProjectItem[] = [
 		name: "PGSketch",
 		slug: "pgsketch",
 		description:
-			"Linux desktop app that turns visual Postgres schema edits into reviewed migration SQL",
+			"Desktop app that turns visual Postgres schema edits into reviewed migration SQL",
 		stack: ["TypeScript", "Electron", "React", "PostgreSQL", "SQLite", "Zod", "Vitest", "Playwright", "Docker"],
 		status: "shipped",
 		type: "systems",
@@ -228,7 +222,7 @@ export const projects: ProjectItem[] = [
 			"A Discord bot for small team task coordination, with LLM-powered duplicate detection and GitHub-based scope-drift detection.",
 		stack: ["TypeScript", "Bun", "discord.js", "SQLite", "Gemini"],
 		status: "shipped",
-		type: "backend",
+		type: "agentic",
 		source: "https://github.com/PratikDev/spud"
 	},
 	{
@@ -238,7 +232,7 @@ export const projects: ProjectItem[] = [
 			"An AI agent that audits content against your brand guidelines before it publishes.",
 		stack: ["Next.js", "Convex", "Gemini"],
 		status: "shipped",
-		type: "fullstack",
+		type: "agentic",
 		url: "https://narrative-guard.vercel.app",
 		source: "https://github.com/PratikDev/narrative-guard",
 	},
