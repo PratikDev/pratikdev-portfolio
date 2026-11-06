@@ -76,8 +76,11 @@ function ProjectPanel({
 	);
 }
 
+const ACTIVE_PROJECT_INDEX = 4;
+
 export function ProjectsSection() {
-	const [activeProjectIndex, setActiveProjectIndex] = useState<number>(2);
+	const [activeProjectIndex, setActiveProjectIndex] =
+		useState<number>(ACTIVE_PROJECT_INDEX);
 	const allProjectNames = projects.map((project) => project.name);
 	const activeProject = projects[activeProjectIndex];
 
@@ -91,7 +94,7 @@ export function ProjectsSection() {
 			<div className="grid grid-cols-3 h-full">
 				<OptionWheel
 					items={allProjectNames}
-					defaultSelected={4}
+					defaultSelected={ACTIVE_PROJECT_INDEX}
 					textColor="var(--muted-foreground)"
 					activeColor="var(--primary)"
 					className="font-heading"
