@@ -1,6 +1,3 @@
-import resumeMarkdownUrl from "@/assets/pratik-resume.md?url";
-import resumePdfUrl from "@/assets/pratik-resume.pdf?url";
-
 export type NavItem = {
 	id: "about" | "experience" | "projects" | "resume" | "contact";
 	label: string;
@@ -332,7 +329,7 @@ export const resumeItems: ResumeItem[] = [
 		key: "pdf",
 		label: "Resume PDF",
 		format: "PDF",
-		href: resumePdfUrl,
+		href: "/resume.pdf",
 		fileName: "pratik-resume.pdf",
 		description: "For recruiters and quick sharing.",
 	},
@@ -340,7 +337,7 @@ export const resumeItems: ResumeItem[] = [
 		key: "markdown",
 		label: "Resume Markdown",
 		format: "Markdown",
-		href: resumeMarkdownUrl,
+		href: "/resume.md",
 		fileName: "pratik-resume.md",
 		description: "Plain text, easy to parse.",
 	},

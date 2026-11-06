@@ -91,7 +91,7 @@ Software Engineer with 5+ years of experience building AI features, third-party 
   |:-------------|-------------------------------------------------------:|
   | **PGSketch** | [<u>Source</u>](https://github.com/PratikDev/pgsketch) |
 
-  -  Linux desktop app that turns visual **Postgres** schema edits into reviewed **migration SQL**: a diagram editor with live change highlighting, risk warnings on destructive changes, a rolled-back dry-run validator, and drift detection when the database changes underneath you. Read-only by design, supports Postgres 14+, and ships as a `.deb`.
+  -  Desktop app that turns visual **Postgres** schema edits into reviewed **migration SQL**: a diagram editor with live change highlighting, risk warnings on destructive changes, a rolled-back dry-run validator, and drift detection when the database changes underneath you. Read-only by design, supports Postgres 14+, and ships as a `.deb`.
 
   -  **Tech:** *Electron, React, TypeScript, PostgreSQL, SQLite, Zod, Vitest, Playwright, Docker*
 
